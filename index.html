@@ -3,13 +3,14 @@
     <head>
         <meta charset="utf-8">
         <title>Introduction</title>
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <nav>
+        <header>
             <h1><i>Hi, I'm Chiharu.</i></h1>
-        </nav>
+        </header>
        
-        <aside>
+        <nav>
             <h2>Profile</h2>
             <a href="index.html"><img src="image/Profile_pic.JPG" alt="Profile_pic" width="300px" height="400"></a>
             <dl>
@@ -20,31 +21,41 @@
                 <dt>출신</dt>
                 <dd>- Osaka, Japan</dd>
             </dl>
-        </aside>
+        </nav>
         
         <main>
-            <h2>Hobby</h2>
-            <h3>Travel✈️</h3>
-            <ul>
-                <li><img src="image/Italy.jpeg" alt="Italy" width="300px" height="400px"></li>
-                <p>Italy</p>
-                <li><img src="image/Singapore.jpeg" alt="Singapore" width="300" height="400"></li>
-                <p>Singapore</p>
-                <li><img src="image/Indonesia.JPG" alt="Indonesia" width="300" height="400"></li>
-                <p>Indonesia</p>
-            </ul>
+            <div class="hobby">
+                <h2>Hobby</h2>
+                <h3>Travel✈️</h3>
+                <ul>
+                    <li><img src="image/Italy.jpeg" alt="Italy" width="300px" height="400px"></li>
+                    <p>Italy</p>
+                    <li><img src="image/Singapore.jpeg" alt="Singapore" width="300" height="400"></li>
+                    <p>Singapore</p>
+                    <li><img src="image/Indonesia.JPG" alt="Indonesia" width="300" height="400"></li>
+                    <p>Indonesia</p>
+                </ul>
 
-            <pre>이 이외에도 호주 필리핀 유럽 몰타에서 짧게는 두달, 
-        길게는 1년 정도 유학생활을 했었습니다. 
-    다양한 문화를 보고 경험하는 것을 좋아합니다:)</pre>
-
-            <h2>Wiki</h2>
-            <a href="wiki.html">위키 페이지 보러가기</a>
-
-            <h2>Time Table</h2>
-            <a href="timetable.html">2022년 2학기 수업 시간표 페이지 이동하기</a>
+                <pre>이 이외에도 호주 필리핀 유럽 몰타에서 짧게는 두달, 
+            길게는 1년 정도 유학생활을 했었습니다. 
+        다양한 문화를 보고 경험하는 것을 좋아합니다:)</pre>
+            </div>
+            
+            <div id="wiki">
+                <h2>Wiki</h2>
+                <a href="wiki.html">위키 페이지 보러가기</a>
+            </div>
+            
+            <div id="timetable">
+                <h2>Time Table</h2>
+                <a href="timetable.html">2022년 2학기 수업 시간표 페이지 이동하기</a>
+            </div>
+            
         </main>
-        <footer></footer>
+        
+        <footer>
+            <p>2022 web_programming</p>
+        </footer>
     </body>
     
 </html>

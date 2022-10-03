@@ -1,0 +1,33 @@
+
+img:hover {
+    opacity: 70%;
+}
+
+header{
+    background-color: lightcoral;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+nav{
+    float: right;
+    background-color: lightsalmon;
+}
+footer {
+    background-color: steelblue;
+}
+.hobby {
+    float: inline-start;
+    background-color: khaki;
+}
+#wiki {
+    background-color: lightgreen ;
+    float: left;
+}
+#timetable{
+   background-color: darkseagreen;
+   float: inline-start;
+}
+footer p{
+    color: white;
+    
+}
