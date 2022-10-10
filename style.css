@@ -1,33 +1,72 @@
-
+#navbarNav li a, svg {
+    color: #F9F5EB;
+}
 img:hover {
     opacity: 70%;
 }
-
-header{
-    background-color: lightcoral;
-    font-family: 'Times New Roman', Times, serif;
+ul {
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+#greeting {
+    height: 500px;
+    background-color: #F9F5EB;
+    text-align: center;
+}
+#greeting h1 {
+    color: #35455e;
+    font-size: 10vh;
+    padding-top: 200px;
 }
 
-nav{
-    float: right;
-    background-color: lightsalmon;
+h1, h2, h3 {
+    padding-top: 10px;
+    text-align: center;
 }
+main {
+    background-color: #EAE3D2;
+    color: #35455e;
+}
+
+.contents {
+    display: flex;
+}
+
+.contents-item {
+    width: 25%;
+    margin: 10px auto;
+    text-align: center;
+}
+pre {
+    text-align: center;
+}
+.profile-contents{
+    margin-left: 25px;
+}
+
 footer {
-    background-color: steelblue;
+    height: 50px;
+    color: #F9F5EB;
+    background-color: #35455e;
+    text-align: center;
 }
-.hobby {
-    float: inline-start;
-    background-color: khaki;
+footer p {
+    padding-top: 15px;
 }
-#wiki {
-    background-color: lightgreen ;
-    float: left;
+
+@media screen and (max-width: 960px) {
+    .profile-contents {
+       
+        display: flex
+        
+    };
 }
-#timetable{
-   background-color: darkseagreen;
-   float: inline-start;
-}
-footer p{
-    color: white;
-    
+
+@media screen and (max-width: 768px) {
+    .contents {
+        display: block;
+        ;
+    }
 }

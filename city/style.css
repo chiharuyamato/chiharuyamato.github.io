@@ -1,0 +1,50 @@
+
+main{
+    background-color: #EAE3D2;
+    text-align: center;
+}
+#navbarNav li a, svg {
+    color: #F9F5EB;
+}
+.row {
+    height: auto;
+    color: #35455e;
+}
+h1 {
+    padding-top: 20px;
+}
+.contents {
+    display: flex;
+}
+.contents p{
+    text-align: left;
+    width: 50%;
+    padding: 0 15px;
+}
+iframe {
+    width: 50%;
+}
+#melbourne, #malta {
+    background-color: #fdf4dd;
+}
+footer {
+    height: 50px;
+    color: #F9F5EB;
+    background-color: #35455e;
+    text-align: center;
+}
+footer p {
+    padding-top: 15px;
+}
+@media screen and (max-width: 768px) {
+    .contents {
+        display: block;
+        
+    }
+    iframe{
+        width: 100%;
+    }
+    .contents p{
+        width: 100%;
+    }
+}

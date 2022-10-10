@@ -2,60 +2,97 @@
 <html lang="en" itemscope="https://schema.org/WebPage">
     <head>
         <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Introduction</title>
         <link rel="stylesheet" href="style.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
     </head>
     <body>
-        <header>
-            <h1><i>Hi, I'm Chiharu.</i></h1>
-        </header>
-       
-        <nav>
-            <h2>Profile</h2>
-            <a href="index.html"><img src="image/Profile_pic.JPG" alt="Profile_pic" width="300px" height="400"></a>
-            <dl>
-                <dt>이름</dt>
-                <dd><strong>- Yamato Chiharu</strong> </dd>
-                <dt>나이</dt>
-                <dd>- 22</dd>
-                <dt>출신</dt>
-                <dd>- Osaka, Japan</dd>
-            </dl>
+        <nav class="navbar navbar-expand" style="background-color: #607EAA;">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 20 20">
+                        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                    </svg>
+                   
+                </a>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                      <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="timetable/timetable.html">Timetable</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="city/city.html">City</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="favorite/favorite.html">Favorite</a>
+                      </li>
+                    </ul>
+                </div>
+            </div>
+           
         </nav>
-        
+        <div  class="row" id="greeting">
+            <div class="col">
+                <h1>Hi, I'm Chiharu!</h1>
+            </div>     
+        </div>
         <main>
-            <div class="hobby">
-                <h2>Hobby</h2>
-                <h3>Travel✈️</h3>
-                <ul>
-                    <li><img src="image/Italy.jpeg" alt="Italy" width="300px" height="400px"></li>
-                    <p>Italy</p>
-                    <li><img src="image/Singapore.jpeg" alt="Singapore" width="300" height="400"></li>
-                    <p>Singapore</p>
-                    <li><img src="image/Indonesia.JPG" alt="Indonesia" width="300" height="400"></li>
-                    <p>Indonesia</p>
-                </ul>
+            <div class="row">
+                <div  class="col-lg-9" id="hobby">
+                    <h2>Hobby</h2>
+                    <h3>Travel</h3>
+                    <div class="contents">
+                        <div class="contents-item">
+                            <img src="image/italy.png" alt="Italy" width="250px" height="250px"></li>
+                            <p>Italy</p>
+                        </div>
+    
+                        <div class="contents-item">
+                            <img src="image/singapore.png" alt="Singapore" width="250px" height="250"></li>
+                            <p>Singapore</p>
+                        </div>
+    
+                        <div class="contents-item">
+                            <img src="image/indonesia.png" alt="Indonesia" width="250" height="250"></li>
+                            <p>Indonesia</p>
+                        </div>
+                    </div>
+                    
 
-                <pre>이 이외에도 호주 필리핀 유럽 몰타에서 짧게는 두달, 
-            길게는 1년 정도 유학생활을 했었습니다. 
-        다양한 문화를 보고 경험하는 것을 좋아합니다:)</pre>
-            </div>
-            
-            <div id="wiki">
-                <h2>Wiki</h2>
-                <a href="wiki.html">위키 페이지 보러가기</a>
-            </div>
-            
-            <div id="timetable">
-                <h2>Time Table</h2>
-                <a href="timetable.html">2022년 2학기 수업 시간표 페이지 이동하기</a>
-            </div>
-            
-        </main>
         
+                    <pre>
+                이 이외에도 호주 필리핀 유럽 몰타에서 짧게는 두달, 
+                    길게는 1년 정도 유학생활을 했었습니다. 
+                다양한 문화를 보고 경험하는 것을 좋아합니다:)
+                    </pre>
+                </div>
+
+                <div class="col-lg-auto" id="profile">
+                    <h2>Profile</h2>
+                    <div class="profile-contents">
+                        <img src="image/profile.png" alt="Profile_pic" width="200px" height="200"> 
+                        <dl>
+                            <dt>이름</dt>
+                            <dd><strong>- Yamato Chiharu</strong> </dd>
+                            <dt>나이</dt>
+                            <dd>- 22</dd>
+                            <dt>출신</dt>
+                            <dd>- Osaka, Japan</dd>
+                        </dl>
+                    </div>
+                    
+                </div>
+            </div>
+        </main>
+
         <footer>
-            <p>2022 web_programming</p>
-        </footer>
+                <p>2022 web_programming</p>
+        </footer>      
     </body>
     
 </html>
